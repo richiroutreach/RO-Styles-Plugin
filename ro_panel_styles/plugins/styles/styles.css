@@ -1,0 +1,28 @@
+.pink {
+	background-color: #ffd1d1;
+}
+
+.sidebar_link_buttons ul {
+	list-style-type: none;
+	margin: 0;	
+}
+
+.sidebar_link_buttons ul li {
+	margin: 0;
+	margin-bottom: 1rem;	
+}
+
+.sidebar_link_buttons ul li a {
+	color: white;
+	background: #4270b4;
+	border: 2px solid #34598f;
+	padding: 0.5rem 0;
+	width: 100%;
+	display: block;
+	text-align: center;
+	transition: 300ms;
+}
+
+.sidebar_link_buttons ul li a:hover {
+	background: #34598f;
+}
