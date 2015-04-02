@@ -2,7 +2,7 @@
 
 /**
  * @file
- * Blah
+ * Adds the foundation button class to a pane
  */
 
 $plugin = array(

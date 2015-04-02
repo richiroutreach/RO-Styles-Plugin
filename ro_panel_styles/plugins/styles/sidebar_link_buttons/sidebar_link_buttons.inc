@@ -2,12 +2,12 @@
 
 /**
  * @file
- * Blah
+ * Changes link lists into nice buttons
  */
 
 $plugin = array(
   'title' => t('Sidebar Button Links'),
-  'description' => t('Style sidebar link lists into nice bittons.'),
+  'description' => t('Style sidebar link lists into nice buttons.'),
   'render pane' => 'ro_panel_styles_sidebar_link_buttons_pane',
   'render region' => 'ro_panel_styles_sidebar_link_buttons_region',
   'weight' => -10,
@@ -26,7 +26,7 @@ function theme_ro_panel_styles_sidebar_link_buttons_pane($vars) {
     $content->css_class = '';
   }
 
-  $content->css_class .= 'sidebar_link_buttons';
+  $content->css_class .= ' sidebar_link_buttons';
 
   // if the style is gone or has no theme of its own, just display the output.
   return theme('panels_pane', array('content' => $content, 'pane' => $pane, 'display' => $display));

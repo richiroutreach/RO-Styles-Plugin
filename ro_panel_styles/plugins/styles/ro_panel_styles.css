@@ -1,7 +1,8 @@
-.pink {
-	background-color: #ffd1d1;
-}
-
+/*
+	---------------------------------------------------------------------------
+		Sidebar Link Buttons (sidebar_link_buttons)	
+	---------------------------------------------------------------------------
+*/
 .sidebar_link_buttons ul {
 	list-style-type: none;
 	margin: 0;	
