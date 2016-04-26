@@ -1,5 +1,5 @@
-== DO NOT USE THIS ONE ==
+# DO NOT USE THIS ONE 
 
-# RO-Styles-Plugin
-Styles Plugin for Panels
+do not use this one - go to the url below
+
 MOVED TO https://github.com/Jerimee/ro_panel_styles
